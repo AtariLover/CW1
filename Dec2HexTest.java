@@ -35,7 +35,7 @@ public class Dec2HexTest {
 
            String expectedError = "Error. The input was in an invalid format. \n";
 
-           assertEquals("Non-integer value should create the expected error message.", Output.toString().equals(expectedOutput));
+           assertEquals("Non-integer value should create the expected error message.", Output.toString().equals(expectedError));
     }
 
 
@@ -47,9 +47,9 @@ public class Dec2HexTest {
         
           dec2hex.Arg1;
 
-          String expectedOutput = "Error. There has not been any input provided. \n";
+          String expectedError = "Error. There has not been any input provided. \n";
 
-          assertEquals("No input should create the expected error message.", Output.toString().equals(expectedOutput));
+          assertEquals("No input should create the expected error message.", Output.toString().equals(expectedError));
 
           System.setOut(System.out);
 

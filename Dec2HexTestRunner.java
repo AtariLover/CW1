@@ -6,7 +6,7 @@ import java.lang.Exception;
 
 public class Dec2HexTestRunner {
    public static void main(String[] args) {
-      Result result = JUnitCore.runClasses(Dec2HexTestRunner.class);
+      Result result = JUnitCore.runClasses(Dec2HexTest.class);
       int fails = 0;
       try{
           for (Failure failure : result.getFailures()) {

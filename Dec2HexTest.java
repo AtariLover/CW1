@@ -18,12 +18,12 @@ public class Dec2HexTest {
 
     
 
-    @Test
-    public void test_validInput() {
+      @Test
+      public void test_validInput() {
 
         Dec2Hex.Arg1 = 15;
         assertEquals("Converting 15 to hex should work and should show the letter F ", "F", dec2hex.convert_toHexadec());
-    }
+      }
 
       @Test
       public void test_nonInteger() {
@@ -36,11 +36,11 @@ public class Dec2HexTest {
            String expectedError = "Error. The input was in an invalid format. \n";
 
            assertEquals("Non-integer value should create the expected error message.", Output.toString().equals(expectedError));
-    }
+      }
 
 
-	@Test
-    	public void test_noInput(){
+      @Test
+      public void test_noInput(){
 
           ByteArrayOutputStream Output = new ByteArrayOutputStream();
           System.setOut(new PrintStream(Output)); 
@@ -53,7 +53,7 @@ public class Dec2HexTest {
 
           System.setOut(System.out);
 
-    }
+      }
 
 
 

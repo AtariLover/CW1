@@ -44,7 +44,7 @@ class Dec2Hex
         }catch (NumberFormatException e)
         {
 
-            System.out.println("Error. The input was in an invalid format. Please try again in an appropriate format."); //Display error message for non integer input
+            System.out.println("Error. The input was in an invalid format."); //Display error message for non integer input
             System.exit(0); //Exit the program if input is a non integer.
 
         }

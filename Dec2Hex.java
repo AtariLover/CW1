@@ -2,6 +2,9 @@ class Dec2Hex
 {
     public static int Arg1;
 
+
+
+	//Some parts of the main program have been moved to a method to be used in Junit testing.
     public static String convert_toHexadec()
     {
 

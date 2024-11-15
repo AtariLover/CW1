@@ -55,7 +55,7 @@ class Dec2Hex
 
         String hexadecimal = convert_toHexadec();
         
-        System.out.println("The hexadecimal representation is: " + hexadecimal);
+        System.out.println("The Hexadecimal representation is: " + hexadecimal);
 
 
     }

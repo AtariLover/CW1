@@ -31,7 +31,7 @@ public class Dec2HexTest {
            ByteArrayOutputStream Output = new ByteArrayOutputStream();
            System.setOut(new PrintStream(Output)); 
         
-           dec2hex.Arg1 = 3.5;
+           Dec2Hex.Arg1 = 3.5;
 
            String expectedError = "Error. The input was in an invalid format. \n";
 
@@ -45,7 +45,7 @@ public class Dec2HexTest {
           ByteArrayOutputStream Output = new ByteArrayOutputStream();
           System.setOut(new PrintStream(Output)); 
         
-          dec2hex.Arg1;
+          Dec2Hex.Arg1;
 
           String expectedError = "Error. There has not been any input provided. \n";
 

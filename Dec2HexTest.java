@@ -36,6 +36,9 @@ public class Dec2HexTest {
            String expectedError = "Error. The input was in an invalid format. \n";
 
            assertEquals("Non-integer value should create the expected error message.", Output.toString().equals(expectedError));
+
+	   System.setOut(System.out);
+
       }
 
 

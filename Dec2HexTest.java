@@ -45,7 +45,7 @@ public class Dec2HexTest {
           ByteArrayOutputStream Output = new ByteArrayOutputStream();
           System.setOut(new PrintStream(Output)); 
         
-          Dec2Hex.Arg1;
+          Dec2Hex.Arg1 = null;
 
           String expectedError = "Error. There has not been any input provided. \n";
 
